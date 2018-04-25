@@ -1,0 +1,159 @@
+
+@import "media.css";
+
+
+body,
+h1,
+h2,
+h3
+{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0px;
+}
+
+.header{
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+
+ .header > .row {
+     margin: 0px;
+ }
+
+ .header__content{
+    text-align: center;
+    background-color: rgba(14,112,184, 0.7);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+ }
+
+.header__content--title{
+    font-size: 2.5em;
+	font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.header__content--subtitle{
+    font-size: 1.5em;
+	font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.menu__list{
+  padding:0px;
+  /* background-color: rgba(14,112,184, 1); */
+  background-color:#286090;
+    
+}    
+.menu__list--item{
+    list-style: none;
+    display: inline-block;
+    margin-right: -5px;
+    padding: 20px 20px;
+    text-align: center;
+}    
+.menu__list--item:first-child{
+    margin-left: 70px;
+}
+.menu__list--item a{
+    color: white;
+}
+
+.menu__list--item a:hover{
+    text-decoration: none;
+    
+}
+
+.menu__list--item:hover{
+    background-color: rgba(17, 3, 139, 0.568);
+    cursor: pointer;
+    transition: background-color 0.5s linear;
+}
+
+.menu__list--item.active{
+    background-color: rgba(17, 3, 139, 0.568);
+}
+
+.mainpage{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.mainpage__title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#accordion{
+    margin-left: 16.667% !important;
+}
+
+#accordion h3{
+    background-color: #286090;
+    color: white;
+}
+
+#accordion .ui-accordion-header-icon{
+    background-image: url('../img/icons/ui-icons_ffffff_256x240.png') !important;
+    margin-right: 10px;
+}
+.contact_form > input,
+.contact_form > textarea
+{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    position: relative;
+}
+
+.footer__text{
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.response{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.response_back{
+    font-size: 1.2rem;
+}
+
+ul.social{
+    margin-top: 30px;
+}
+.social__item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.social__item i{
+    margin-right: 20px;
+}
